@@ -1,0 +1,20 @@
+uuid: 67f7b4ac-19f4-4e52-a81f-87d9f6301d0e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - restaurant_lite
+_core:
+  default_config_hash: AsFBelknzJ1jOImvlW43GSOXys6ymCnwE3YWI5Oktu8
+id: restaurant_lite_local_actions
+theme: restaurant_lite
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
